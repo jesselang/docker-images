@@ -4,6 +4,9 @@ Using vagrant docker-images
 What's here:
 * A vagrant-friendly Debian Wheezy image
 
+To use these images (see https://hub.docker.com/u/jesselang/):
+    $ docker pull jesselang/<image-name>:<tag>
+
 To build these images:
 
     $ docker build -t my_image_name <path/to/Dockerfile>

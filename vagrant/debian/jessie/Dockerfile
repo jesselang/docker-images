@@ -1,7 +1,7 @@
-# Debian Wheezy made vagrant-friendly.
+# Debian jessie made vagrant-friendly.
 # http://github.com/jesselang/docker-images
-# docker pull jesselang/debian-vagrant:wheezy
-FROM debian:wheezy
+# docker pull jesselang/debian-vagrant:jessie
+FROM debian:jessie
 MAINTAINER Jesse Lang <jesse@jesselang.com>
 
 # Basic upgrades; install sudo and SSH.
