@@ -2,9 +2,10 @@ Using vagrant docker-images
 =============
 
 What's here:
-* A vagrant-friendly Debian Wheezy image
+* Vagrant-friendly Debian Wheezy, Jessie, and Strech images
 
 To use these images (see https://hub.docker.com/u/jesselang/):
+
     $ docker pull jesselang/<image-name>:<tag>
 
 To build these images:
