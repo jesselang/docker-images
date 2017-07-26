@@ -4,7 +4,7 @@ docker-images
 Build files for Docker images
 
 What's here:
-* A vagrant-friendly Debian Wheezy image
+* Vagrant-friendly Debian Wheezy, Jessie, and Strech images
 
 To build these images:
 
