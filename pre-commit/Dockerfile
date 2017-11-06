@@ -4,6 +4,7 @@
 FROM python:2-alpine
 LABEL maintainer="Jesse Lang <jesse@jesselang.com>"
 RUN apk add --no-cache \
+        bash \
         docker \
         git \
         grep \
