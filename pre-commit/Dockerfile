@@ -3,7 +3,10 @@
 # docker pull jesselang/pre-commit
 FROM python:2-alpine
 LABEL maintainer="Jesse Lang <jesse@jesselang.com>"
-RUN apk add --no-cache git docker \
+RUN apk add --no-cache \
+        docker \
+        git \
+        grep \
     && pip install pre-commit>=1.0
 WORKDIR /pre-commit
 ENTRYPOINT ["/usr/local/bin/pre-commit"]
